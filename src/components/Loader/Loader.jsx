@@ -1,4 +1,4 @@
-import { ThreeDots } from 'react-loader-spinner';
+import ThreeDots from 'react-loader-spinner';
 
 import { LoaderWrapp } from './Loader.styled';
 
@@ -18,5 +18,4 @@ const Loader = () => {
     </LoaderWrapp>
   );
 };
-
 export default Loader;
